@@ -24,7 +24,7 @@ func DetectOutliers(machines []models.Machine) ([]models.Machine, error) {
 	iqrMultiplier := 2.0
 	upperBound := q3 + int(iqrMultiplier*float64(iqr))
 
-	var outliers []models.Machine
+	outliers := []models.Machine{}
 	for _, m := range machines {
 		age, _ := utils.ParseToDays(m.Age)
 		if age > upperBound {
