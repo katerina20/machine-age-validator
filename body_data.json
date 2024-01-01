@@ -1,0 +1,86 @@
+[
+    {
+      "id": "machine1",
+      "age": "40 years"
+    },
+    {
+      "id": "machine2",
+      "age": "200 days"
+    },
+    {
+      "id": "machine3",
+      "age": "90 years"
+    },
+    {
+      "id": "machine4",
+      "age": "12 month"
+    },
+    {
+      "id": "machine5",
+      "age": "300 days"
+    },
+    {
+      "id": "machine31",
+      "age": "3 month"
+    },
+    {
+      "id": "machine11",
+      "age": "3 year"
+    },
+    {
+      "id": "machine21",
+      "age": "400 days"
+    },
+    {
+      "id": "machine32",
+      "age": "6 month"
+    },
+    {
+      "id": "machine12",
+      "age": "4 year"
+    },
+    {
+      "id": "machine22",
+      "age": "30 days"
+    },
+    {
+      "id": "machine33",
+      "age": "12 month"
+    },
+    {
+      "id": "machine13",
+      "age": "7 year"
+    },
+    {
+      "id": "machine23",
+      "age": "10 days"
+    },
+    {
+      "id": "machine34",
+      "age": "45 month"
+    },
+    {
+      "id": "machine14",
+      "age": "10 year"
+    },
+    {
+      "id": "machine24",
+      "age": "90 days"
+    },
+    {
+      "id": "machine35",
+      "age": "52 month"
+    },
+    {
+      "id": "machine15",
+      "age": "4 year"
+    },
+    {
+      "id": "machine25",
+      "age": "9 days"
+    },
+    {
+      "id": "machine36",
+      "age": "1 month"
+    }
+  ]
