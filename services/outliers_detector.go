@@ -1,8 +1,8 @@
 package services
 
 import (
-	"machineagevalidator/models"
-	"machineagevalidator/utils"
+	"main/models"
+	"main/utils"
 	"sort"
 )
 
