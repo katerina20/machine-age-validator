@@ -1,4 +1,4 @@
-package machineagevalidator
+package models
 
 type RequestData struct {
 	Machines []Machine `json:"machines"`

@@ -1,12 +1,12 @@
 package services
 
 import (
-	mv "machineagevalidator"
+	"machineagevalidator/models"
 	"machineagevalidator/utils"
 	"sort"
 )
 
-func DetectOutliers(machines []mv.Machine) ([]mv.Machine, error) {
+func DetectOutliers(machines []models.Machine) ([]models.Machine, error) {
 	ages := make([]int, 0, len(machines))
 	for _, m := range machines {
 		age, err := utils.ParseToDays(m.Age)
@@ -24,7 +24,7 @@ func DetectOutliers(machines []mv.Machine) ([]mv.Machine, error) {
 	lowerBound := q1 - int(1.5*float64(iqr))
 	upperBound := q3 + int(1.5*float64(iqr))
 
-	var outliers []mv.Machine
+	var outliers []models.Machine
 	for _, m := range machines {
 		age, _ := utils.ParseToDays(m.Age)
 		if age < lowerBound || age > upperBound {

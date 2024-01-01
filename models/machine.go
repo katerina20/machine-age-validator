@@ -1,4 +1,4 @@
-package machineagevalidator
+package models
 
 type Machine struct {
 	ID  string `json:"id"`
